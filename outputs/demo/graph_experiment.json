@@ -1,0 +1,12 @@
+{
+  "connected_components": 1,
+  "devices_linking_three_or_more_accounts": 451,
+  "edges": 6110,
+  "graph_features_used_in_ml": false,
+  "identification_of_fraud_by_graph": "NONE",
+  "largest_component_nodes": 1312,
+  "nodes": 1312,
+  "note": "Shared devices and large connected components are not evidence of fraud; no personal identities exist.",
+  "source_rows": 3055,
+  "status": "EXPLORATORY_SYNTHETIC_ONLY"
+}

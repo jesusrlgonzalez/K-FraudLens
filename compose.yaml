@@ -1,0 +1,14 @@
+services:
+  i29-readonly-demo:
+    build: .
+    read_only: true
+    environment:
+      PYTHONPATH: /app/src
+    tmpfs:
+      - /tmp
+    ports:
+      - '127.0.0.1:8080:8080'
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true

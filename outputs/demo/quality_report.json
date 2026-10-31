@@ -1,0 +1,27 @@
+{
+  "candidate_rows": 3055,
+  "conservation_check": true,
+  "dataset": "dirty_transaction_events",
+  "fraud_decisions": "NONE",
+  "input_rows": 3200,
+  "no_payment_authority": true,
+  "outcome_labels_accessed_by_audit": false,
+  "quality_decision_is_not_a_fraud_verdict": true,
+  "quarantine_rows": 109,
+  "review_rows": 36,
+  "rule_hit_counts": {
+    "CLOCK_SKEW": 24,
+    "DUPLICATE_TRANSACTION_ID": 13,
+    "EVENT_IN_FUTURE": 12,
+    "INVALID_AMOUNT": 12,
+    "INVALID_EVENT_TIME": 12,
+    "MISSING_DEVICE": 12,
+    "UNKNOWN_CHANNEL": 12,
+    "UNKNOWN_CURRENCY": 12,
+    "UNKNOWN_CUSTOMER_COUNTRY": 12,
+    "UNREGISTERED_MERCHANT": 12,
+    "UNSAFE_ACCOUNT_IDENTIFIER": 12,
+    "UNSUPPORTED_EVENT": 12
+  },
+  "source_type": "SYNTHETIC_DEMO"
+}

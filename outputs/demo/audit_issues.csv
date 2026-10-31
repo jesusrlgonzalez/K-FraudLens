@@ -1,0 +1,158 @@
+row_index,event_id,transaction_id,severity,rule,explanation
+0,ev_000000,tx_000000,QUARANTINE,DUPLICATE_TRANSACTION_ID,Transaction identifier collision; no automatic merge
+32,ev_000032,tx_000032,QUARANTINE,INVALID_AMOUNT,"Nonpositive, missing or nonfinite monetary amount"
+51,ev_000051,tx_000051,QUARANTINE,UNKNOWN_CURRENCY,Currency not authorized; no FX implied
+70,ev_000070,tx_000070,QUARANTINE,INVALID_EVENT_TIME,Event time not a UTC-capable ISO8601 instant
+89,ev_000089,tx_000089,QUARANTINE,UNREGISTERED_MERCHANT,Merchant missing in frozen reference
+108,ev_000108,tx_000108,REVIEW,MISSING_DEVICE,Device not available or invalid
+127,ev_000127,tx_000127,QUARANTINE,EVENT_IN_FUTURE,Event later than frozen audit cutoff
+127,ev_000127,tx_000127,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+146,ev_000146,tx_000146,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+165,ev_000165,tx_000165,REVIEW,UNKNOWN_CUSTOMER_COUNTRY,Country invalid or missing
+184,ev_000184,tx_000184,QUARANTINE,UNKNOWN_CHANNEL,Invalid channel
+203,ev_000203,tx_000203,QUARANTINE,UNSUPPORTED_EVENT,Only authorization attempts in this demo
+222,ev_000222,tx_000222,QUARANTINE,UNSAFE_ACCOUNT_IDENTIFIER,Token invalid or resembles raw card data; content withheld
+241,ev_000241,tx_000000,QUARANTINE,DUPLICATE_TRANSACTION_ID,Transaction identifier collision; no automatic merge
+260,ev_000260,tx_000260,QUARANTINE,INVALID_AMOUNT,"Nonpositive, missing or nonfinite monetary amount"
+279,ev_000279,tx_000279,QUARANTINE,UNKNOWN_CURRENCY,Currency not authorized; no FX implied
+298,ev_000298,tx_000298,QUARANTINE,INVALID_EVENT_TIME,Event time not a UTC-capable ISO8601 instant
+317,ev_000317,tx_000317,QUARANTINE,UNREGISTERED_MERCHANT,Merchant missing in frozen reference
+336,ev_000336,tx_000336,REVIEW,MISSING_DEVICE,Device not available or invalid
+355,ev_000355,tx_000355,QUARANTINE,EVENT_IN_FUTURE,Event later than frozen audit cutoff
+355,ev_000355,tx_000355,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+374,ev_000374,tx_000374,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+393,ev_000393,tx_000393,REVIEW,UNKNOWN_CUSTOMER_COUNTRY,Country invalid or missing
+412,ev_000412,tx_000412,QUARANTINE,UNKNOWN_CHANNEL,Invalid channel
+431,ev_000431,tx_000431,QUARANTINE,UNSUPPORTED_EVENT,Only authorization attempts in this demo
+450,ev_000450,tx_000450,QUARANTINE,UNSAFE_ACCOUNT_IDENTIFIER,Token invalid or resembles raw card data; content withheld
+469,ev_000469,tx_000000,QUARANTINE,DUPLICATE_TRANSACTION_ID,Transaction identifier collision; no automatic merge
+488,ev_000488,tx_000488,QUARANTINE,INVALID_AMOUNT,"Nonpositive, missing or nonfinite monetary amount"
+507,ev_000507,tx_000507,QUARANTINE,UNKNOWN_CURRENCY,Currency not authorized; no FX implied
+526,ev_000526,tx_000526,QUARANTINE,INVALID_EVENT_TIME,Event time not a UTC-capable ISO8601 instant
+545,ev_000545,tx_000545,QUARANTINE,UNREGISTERED_MERCHANT,Merchant missing in frozen reference
+564,ev_000564,tx_000564,REVIEW,MISSING_DEVICE,Device not available or invalid
+583,ev_000583,tx_000583,QUARANTINE,EVENT_IN_FUTURE,Event later than frozen audit cutoff
+583,ev_000583,tx_000583,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+602,ev_000602,tx_000602,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+621,ev_000621,tx_000621,REVIEW,UNKNOWN_CUSTOMER_COUNTRY,Country invalid or missing
+640,ev_000640,tx_000640,QUARANTINE,UNKNOWN_CHANNEL,Invalid channel
+659,ev_000659,tx_000659,QUARANTINE,UNSUPPORTED_EVENT,Only authorization attempts in this demo
+678,ev_000678,tx_000678,QUARANTINE,UNSAFE_ACCOUNT_IDENTIFIER,Token invalid or resembles raw card data; content withheld
+697,ev_000697,tx_000000,QUARANTINE,DUPLICATE_TRANSACTION_ID,Transaction identifier collision; no automatic merge
+716,ev_000716,tx_000716,QUARANTINE,INVALID_AMOUNT,"Nonpositive, missing or nonfinite monetary amount"
+735,ev_000735,tx_000735,QUARANTINE,UNKNOWN_CURRENCY,Currency not authorized; no FX implied
+754,ev_000754,tx_000754,QUARANTINE,INVALID_EVENT_TIME,Event time not a UTC-capable ISO8601 instant
+773,ev_000773,tx_000773,QUARANTINE,UNREGISTERED_MERCHANT,Merchant missing in frozen reference
+792,ev_000792,tx_000792,REVIEW,MISSING_DEVICE,Device not available or invalid
+811,ev_000811,tx_000811,QUARANTINE,EVENT_IN_FUTURE,Event later than frozen audit cutoff
+811,ev_000811,tx_000811,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+830,ev_000830,tx_000830,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+849,ev_000849,tx_000849,REVIEW,UNKNOWN_CUSTOMER_COUNTRY,Country invalid or missing
+868,ev_000868,tx_000868,QUARANTINE,UNKNOWN_CHANNEL,Invalid channel
+887,ev_000887,tx_000887,QUARANTINE,UNSUPPORTED_EVENT,Only authorization attempts in this demo
+906,ev_000906,tx_000906,QUARANTINE,UNSAFE_ACCOUNT_IDENTIFIER,Token invalid or resembles raw card data; content withheld
+925,ev_000925,tx_000000,QUARANTINE,DUPLICATE_TRANSACTION_ID,Transaction identifier collision; no automatic merge
+944,ev_000944,tx_000944,QUARANTINE,INVALID_AMOUNT,"Nonpositive, missing or nonfinite monetary amount"
+963,ev_000963,tx_000963,QUARANTINE,UNKNOWN_CURRENCY,Currency not authorized; no FX implied
+982,ev_000982,tx_000982,QUARANTINE,INVALID_EVENT_TIME,Event time not a UTC-capable ISO8601 instant
+1001,ev_001001,tx_001001,QUARANTINE,UNREGISTERED_MERCHANT,Merchant missing in frozen reference
+1020,ev_001020,tx_001020,REVIEW,MISSING_DEVICE,Device not available or invalid
+1039,ev_001039,tx_001039,QUARANTINE,EVENT_IN_FUTURE,Event later than frozen audit cutoff
+1039,ev_001039,tx_001039,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+1058,ev_001058,tx_001058,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+1077,ev_001077,tx_001077,REVIEW,UNKNOWN_CUSTOMER_COUNTRY,Country invalid or missing
+1096,ev_001096,tx_001096,QUARANTINE,UNKNOWN_CHANNEL,Invalid channel
+1115,ev_001115,tx_001115,QUARANTINE,UNSUPPORTED_EVENT,Only authorization attempts in this demo
+1134,ev_001134,tx_001134,QUARANTINE,UNSAFE_ACCOUNT_IDENTIFIER,Token invalid or resembles raw card data; content withheld
+1153,ev_001153,tx_000000,QUARANTINE,DUPLICATE_TRANSACTION_ID,Transaction identifier collision; no automatic merge
+1172,ev_001172,tx_001172,QUARANTINE,INVALID_AMOUNT,"Nonpositive, missing or nonfinite monetary amount"
+1191,ev_001191,tx_001191,QUARANTINE,UNKNOWN_CURRENCY,Currency not authorized; no FX implied
+1210,ev_001210,tx_001210,QUARANTINE,INVALID_EVENT_TIME,Event time not a UTC-capable ISO8601 instant
+1229,ev_001229,tx_001229,QUARANTINE,UNREGISTERED_MERCHANT,Merchant missing in frozen reference
+1248,ev_001248,tx_001248,REVIEW,MISSING_DEVICE,Device not available or invalid
+1267,ev_001267,tx_001267,QUARANTINE,EVENT_IN_FUTURE,Event later than frozen audit cutoff
+1267,ev_001267,tx_001267,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+1286,ev_001286,tx_001286,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+1305,ev_001305,tx_001305,REVIEW,UNKNOWN_CUSTOMER_COUNTRY,Country invalid or missing
+1324,ev_001324,tx_001324,QUARANTINE,UNKNOWN_CHANNEL,Invalid channel
+1343,ev_001343,tx_001343,QUARANTINE,UNSUPPORTED_EVENT,Only authorization attempts in this demo
+1362,ev_001362,tx_001362,QUARANTINE,UNSAFE_ACCOUNT_IDENTIFIER,Token invalid or resembles raw card data; content withheld
+1381,ev_001381,tx_000000,QUARANTINE,DUPLICATE_TRANSACTION_ID,Transaction identifier collision; no automatic merge
+1400,ev_001400,tx_001400,QUARANTINE,INVALID_AMOUNT,"Nonpositive, missing or nonfinite monetary amount"
+1419,ev_001419,tx_001419,QUARANTINE,UNKNOWN_CURRENCY,Currency not authorized; no FX implied
+1438,ev_001438,tx_001438,QUARANTINE,INVALID_EVENT_TIME,Event time not a UTC-capable ISO8601 instant
+1457,ev_001457,tx_001457,QUARANTINE,UNREGISTERED_MERCHANT,Merchant missing in frozen reference
+1476,ev_001476,tx_001476,REVIEW,MISSING_DEVICE,Device not available or invalid
+1495,ev_001495,tx_001495,QUARANTINE,EVENT_IN_FUTURE,Event later than frozen audit cutoff
+1495,ev_001495,tx_001495,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+1514,ev_001514,tx_001514,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+1533,ev_001533,tx_001533,REVIEW,UNKNOWN_CUSTOMER_COUNTRY,Country invalid or missing
+1552,ev_001552,tx_001552,QUARANTINE,UNKNOWN_CHANNEL,Invalid channel
+1571,ev_001571,tx_001571,QUARANTINE,UNSUPPORTED_EVENT,Only authorization attempts in this demo
+1590,ev_001590,tx_001590,QUARANTINE,UNSAFE_ACCOUNT_IDENTIFIER,Token invalid or resembles raw card data; content withheld
+1609,ev_001609,tx_000000,QUARANTINE,DUPLICATE_TRANSACTION_ID,Transaction identifier collision; no automatic merge
+1628,ev_001628,tx_001628,QUARANTINE,INVALID_AMOUNT,"Nonpositive, missing or nonfinite monetary amount"
+1647,ev_001647,tx_001647,QUARANTINE,UNKNOWN_CURRENCY,Currency not authorized; no FX implied
+1666,ev_001666,tx_001666,QUARANTINE,INVALID_EVENT_TIME,Event time not a UTC-capable ISO8601 instant
+1685,ev_001685,tx_001685,QUARANTINE,UNREGISTERED_MERCHANT,Merchant missing in frozen reference
+1704,ev_001704,tx_001704,REVIEW,MISSING_DEVICE,Device not available or invalid
+1723,ev_001723,tx_001723,QUARANTINE,EVENT_IN_FUTURE,Event later than frozen audit cutoff
+1723,ev_001723,tx_001723,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+1742,ev_001742,tx_001742,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+1761,ev_001761,tx_001761,REVIEW,UNKNOWN_CUSTOMER_COUNTRY,Country invalid or missing
+1780,ev_001780,tx_001780,QUARANTINE,UNKNOWN_CHANNEL,Invalid channel
+1799,ev_001799,tx_001799,QUARANTINE,UNSUPPORTED_EVENT,Only authorization attempts in this demo
+1818,ev_001818,tx_001818,QUARANTINE,UNSAFE_ACCOUNT_IDENTIFIER,Token invalid or resembles raw card data; content withheld
+1837,ev_001837,tx_000000,QUARANTINE,DUPLICATE_TRANSACTION_ID,Transaction identifier collision; no automatic merge
+1856,ev_001856,tx_001856,QUARANTINE,INVALID_AMOUNT,"Nonpositive, missing or nonfinite monetary amount"
+1875,ev_001875,tx_001875,QUARANTINE,UNKNOWN_CURRENCY,Currency not authorized; no FX implied
+1894,ev_001894,tx_001894,QUARANTINE,INVALID_EVENT_TIME,Event time not a UTC-capable ISO8601 instant
+1913,ev_001913,tx_001913,QUARANTINE,UNREGISTERED_MERCHANT,Merchant missing in frozen reference
+1932,ev_001932,tx_001932,REVIEW,MISSING_DEVICE,Device not available or invalid
+1951,ev_001951,tx_001951,QUARANTINE,EVENT_IN_FUTURE,Event later than frozen audit cutoff
+1951,ev_001951,tx_001951,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+1970,ev_001970,tx_001970,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+1989,ev_001989,tx_001989,REVIEW,UNKNOWN_CUSTOMER_COUNTRY,Country invalid or missing
+2008,ev_002008,tx_002008,QUARANTINE,UNKNOWN_CHANNEL,Invalid channel
+2027,ev_002027,tx_002027,QUARANTINE,UNSUPPORTED_EVENT,Only authorization attempts in this demo
+2046,ev_002046,tx_002046,QUARANTINE,UNSAFE_ACCOUNT_IDENTIFIER,Token invalid or resembles raw card data; content withheld
+2065,ev_002065,tx_000000,QUARANTINE,DUPLICATE_TRANSACTION_ID,Transaction identifier collision; no automatic merge
+2084,ev_002084,tx_002084,QUARANTINE,INVALID_AMOUNT,"Nonpositive, missing or nonfinite monetary amount"
+2103,ev_002103,tx_002103,QUARANTINE,UNKNOWN_CURRENCY,Currency not authorized; no FX implied
+2122,ev_002122,tx_002122,QUARANTINE,INVALID_EVENT_TIME,Event time not a UTC-capable ISO8601 instant
+2141,ev_002141,tx_002141,QUARANTINE,UNREGISTERED_MERCHANT,Merchant missing in frozen reference
+2160,ev_002160,tx_002160,REVIEW,MISSING_DEVICE,Device not available or invalid
+2179,ev_002179,tx_002179,QUARANTINE,EVENT_IN_FUTURE,Event later than frozen audit cutoff
+2179,ev_002179,tx_002179,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+2198,ev_002198,tx_002198,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+2217,ev_002217,tx_002217,REVIEW,UNKNOWN_CUSTOMER_COUNTRY,Country invalid or missing
+2236,ev_002236,tx_002236,QUARANTINE,UNKNOWN_CHANNEL,Invalid channel
+2255,ev_002255,tx_002255,QUARANTINE,UNSUPPORTED_EVENT,Only authorization attempts in this demo
+2274,ev_002274,tx_002274,QUARANTINE,UNSAFE_ACCOUNT_IDENTIFIER,Token invalid or resembles raw card data; content withheld
+2293,ev_002293,tx_000000,QUARANTINE,DUPLICATE_TRANSACTION_ID,Transaction identifier collision; no automatic merge
+2312,ev_002312,tx_002312,QUARANTINE,INVALID_AMOUNT,"Nonpositive, missing or nonfinite monetary amount"
+2331,ev_002331,tx_002331,QUARANTINE,UNKNOWN_CURRENCY,Currency not authorized; no FX implied
+2350,ev_002350,tx_002350,QUARANTINE,INVALID_EVENT_TIME,Event time not a UTC-capable ISO8601 instant
+2369,ev_002369,tx_002369,QUARANTINE,UNREGISTERED_MERCHANT,Merchant missing in frozen reference
+2388,ev_002388,tx_002388,REVIEW,MISSING_DEVICE,Device not available or invalid
+2407,ev_002407,tx_002407,QUARANTINE,EVENT_IN_FUTURE,Event later than frozen audit cutoff
+2407,ev_002407,tx_002407,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+2426,ev_002426,tx_002426,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+2445,ev_002445,tx_002445,REVIEW,UNKNOWN_CUSTOMER_COUNTRY,Country invalid or missing
+2464,ev_002464,tx_002464,QUARANTINE,UNKNOWN_CHANNEL,Invalid channel
+2483,ev_002483,tx_002483,QUARANTINE,UNSUPPORTED_EVENT,Only authorization attempts in this demo
+2502,ev_002502,tx_002502,QUARANTINE,UNSAFE_ACCOUNT_IDENTIFIER,Token invalid or resembles raw card data; content withheld
+2521,ev_002521,tx_000000,QUARANTINE,DUPLICATE_TRANSACTION_ID,Transaction identifier collision; no automatic merge
+2540,ev_002540,tx_002540,QUARANTINE,INVALID_AMOUNT,"Nonpositive, missing or nonfinite monetary amount"
+2559,ev_002559,tx_002559,QUARANTINE,UNKNOWN_CURRENCY,Currency not authorized; no FX implied
+2578,ev_002578,tx_002578,QUARANTINE,INVALID_EVENT_TIME,Event time not a UTC-capable ISO8601 instant
+2597,ev_002597,tx_002597,QUARANTINE,UNREGISTERED_MERCHANT,Merchant missing in frozen reference
+2616,ev_002616,tx_002616,REVIEW,MISSING_DEVICE,Device not available or invalid
+2635,ev_002635,tx_002635,QUARANTINE,EVENT_IN_FUTURE,Event later than frozen audit cutoff
+2635,ev_002635,tx_002635,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+2654,ev_002654,tx_002654,REVIEW,CLOCK_SKEW,Observed timestamp predates event; cannot silently reorder
+2673,ev_002673,tx_002673,REVIEW,UNKNOWN_CUSTOMER_COUNTRY,Country invalid or missing
+2692,ev_002692,tx_002692,QUARANTINE,UNKNOWN_CHANNEL,Invalid channel
+2711,ev_002711,tx_002711,QUARANTINE,UNSUPPORTED_EVENT,Only authorization attempts in this demo
+2730,ev_002730,tx_002730,QUARANTINE,UNSAFE_ACCOUNT_IDENTIFIER,Token invalid or resembles raw card data; content withheld
+2749,ev_002749,tx_000000,QUARANTINE,DUPLICATE_TRANSACTION_ID,Transaction identifier collision; no automatic merge

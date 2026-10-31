@@ -1,0 +1,33 @@
+{
+  "average_precision": 0.5531145311914619,
+  "excluded_features": [
+    "chargeback_outcome",
+    "decided_at",
+    "device_post_event",
+    "merchant_future_statistics"
+  ],
+  "fraud_or_payment_authority": "NONE",
+  "holdout_gap": "2025-09-01 to 2025-10-01",
+  "mature_label_asof": "2026-06-01T00:00:00Z",
+  "precision_at_capacity": 0.5789473684210527,
+  "prediction_features": [
+    "amount",
+    "UTC_hour",
+    "weekend",
+    "cross_border",
+    "channel"
+  ],
+  "recall_at_capacity": 0.4583333333333333,
+  "review_capacity_ratio": 0.03,
+  "review_count": 19,
+  "roc_auc": 0.8953349282296651,
+  "status": "EXPLORATORY_SYNTHETIC_ONLY",
+  "synthetic_positive_generation": "DELIBERATELY_STRUCTURED",
+  "test": 651,
+  "test_frauds": 24,
+  "test_prevalence": 0.03686635944700461,
+  "train": 2139,
+  "train_frauds": 78,
+  "true_synthetic_positive_in_review": 11,
+  "unmatured_labels_excluded": 0
+}
